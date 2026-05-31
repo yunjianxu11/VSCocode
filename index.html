@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>津门泥人张 | 国家级非物质文化遗产数字展示</title>
+    <!-- Bootstrap 5 CSS + Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 自定义样式 (分离) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================= 导航栏 ======================= -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-hand-fist"></i> 津门泥人张
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="切换导航">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">首页</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">泥人展厅</a></li>
+                <li class="nav-item"><a class="nav-link" href="#artisans">匠人故事</a></li>
+                <li class="nav-item"><a class="nav-link" href="#craft">泥塑工艺</a></li>
+                <li class="nav-item"><a class="nav-link" href="#guestbook">留言互动</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ======================= 轮播图 ======================= -->
+<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" id="home">
+        <div class="carousel-item active" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://picsum.photos/id/186/1600/700?grayscale'); background-size: cover;">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="hero-title">泥人张 · 指尖乾坤</h1>
+                <p class="fs-5">国家级非物质文化遗产 · 百年世家绝艺</p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://picsum.photos/id/88/1600/700'); background-size: cover;">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="hero-title">彩塑艺术 · 栩栩如生</h1>
+                <p class="fs-5">从市井烟火到历史传奇，一捧泥土塑万象</p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://picsum.photos/id/104/1600/700'); background-size: cover;">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="hero-title">守正创新 · 非遗新生</h1>
+                <p class="fs-5">数字展示传承匠心，邀您共赏津门瑰宝</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">上一页</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">下一页</span>
+    </button>
+</div>
+
+<main class="container py-5">
+    <!-- ======================= 泥人作品展厅 ======================= -->
+    <section id="gallery" class="mb-5 pt-4">
+        <div class="text-center">
+            <h2 class="section-title"><i class="fas fa-palette me-2"></i>泥人作品展厅</h2>
+            <p class="lead mb-5">精选传世经典 · 一塑一世界</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/30/400/300" class="card-img-top gallery-img" alt="泥人作品：钟馗嫁妹" data-img="https://picsum.photos/id/30/800/600" data-title="钟馗嫁妹">
+                    <div class="card-body">
+                        <h5 class="card-title">钟馗嫁妹</h5>
+                        <p class="card-text">泥人张经典题材，人物神态刚毅诙谐，衣纹流畅，尽显民间传说张力。</p>
+                        <button class="btn btn-outline-cinnabar btn-sm view-btn" data-img="https://picsum.photos/id/30/800/600" data-title="钟馗嫁妹">放大欣赏 <i class="fas fa-search-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/96/400/300" class="card-img-top gallery-img" alt="泥人作品：探春远嫁" data-img="https://picsum.photos/id/96/800/600" data-title="探春远嫁">
+                    <div class="card-body">
+                        <h5 class="card-title">探春远嫁</h5>
+                        <p class="card-text">取材古典名著，泥人张细腻刻画闺秀风骨，衣饰彩绘层次丰富。</p>
+                        <button class="btn btn-outline-cinnabar btn-sm view-btn" data-img="https://picsum.photos/id/96/800/600" data-title="探春远嫁">放大欣赏</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/20/400/300" class="card-img-top gallery-img" alt="泥人作品：市井众生相" data-img="https://picsum.photos/id/20/800/600" data-title="市井众生相">
+                    <div class="card-body">
+                        <h5 class="card-title">市井众生相</h5>
+                        <p class="card-text">清末天津卫民俗缩影，一招一式皆有故事，写实传神。</p>
+                        <button class="btn btn-outline-cinnabar btn-sm view-btn" data-img="https://picsum.photos/id/20/800/600" data-title="市井众生相">放大欣赏</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/42/400/300" class="card-img-top gallery-img" alt="泥人作品：孔子讲学" data-img="https://picsum.photos/id/42/800/600" data-title="孔子讲学">
+                    <div class="card-body">
+                        <h5 class="card-title">孔子讲学</h5>
+                        <p class="card-text">庄重儒雅，泥塑语言诠释圣贤风范，刀法洗练。</p>
+                        <button class="btn btn-outline-cinnabar btn-sm view-btn" data-img="https://picsum.photos/id/42/800/600" data-title="孔子讲学">放大欣赏</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= 匠人故事 ======================= -->
+    <section id="artisans" class="mb-5 pt-4">
+        <div class="text-center">
+            <h2 class="section-title"><i class="fas fa-users"></i> 匠人故事</h2>
+            <p class="mb-4">百年世家 · 薪火相传</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="process-step">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                    <h4 class="mt-3">张明山（泥人张创始人）</h4>
+                    <p>清道光年间，张明山捏塑工艺出神入化，只需与人对谈片刻，泥人便形神毕肖，名震京城。“泥人张”由此开宗立派，成为北方彩塑代表。</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="process-step">
+                    <i class="fas fa-chalkboard-user fa-2x"></i>
+                    <h4 class="mt-3">第六代传承人 · 张宇</h4>
+                    <p>当代传承人张宇在传统中融入现代美学，作品被国家博物馆收藏，积极推动非遗数字化，让古老技艺走进年轻视野。</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 text-center fst-italic">
+            <i class="fas fa-quote-left me-2"></i> “手艺活，心先活；泥土有情，塑人心” —— 泥人张世家祖训
+        </div>
+    </section>
+
+    <!-- ======================= 泥塑工艺科普 ======================= -->
+    <section id="craft" class="mb-5 pt-4">
+        <div class="text-center">
+            <h2 class="section-title"><i class="fas fa-hands"></i> 泥塑工艺 · 匠心六法</h2>
+            <p class="mb-5">从泥土到艺术，数百年锤炼的工序</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-digging fa-2x"></i><h5 class="mt-2">1. 选土炼泥</h5><p>采用天津本地黏土，晒干、筛滤、掺棉絮反复捶打，质地细腻韧劲足。</p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-hand-peace fa-2x"></i><h5 class="mt-2">2. 塑型捏制</h5><p>以手捏为主，辅以木制工具，把握骨骼比例，迅速定型动态神韵。</p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-fill-drip fa-2x"></i><h5 class="mt-2">3. 阴干素烧</h5><p>在阴凉处自然脱水，部分作品入窑低温烧制加固耐久。</p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-paintbrush fa-2x"></i><h5 class="mt-2">4. 彩绘着色</h5><p>矿物颜料层层敷彩，先浅后深，衣纹勾线利落，肤色自然莹润。</p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-gem fa-2x"></i><h5 class="mt-2">5. 开脸点睛</h5><p>五官刻画最为精微，点睛提神，人物瞬间情感流露。</p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="process-step"><i class="fas fa-crown fa-2x"></i><h5 class="mt-2">6. 罩漆装盒</h5><p>最后涂一层透明保护漆，防潮耐存，配以锦盒，收藏传世。</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= 留言互动区 ======================= -->
+    <section id="guestbook" class="pt-4 pb-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title"><i class="fas fa-comments"></i> 留言互动 · 共话非遗</h2>
+            <p>分享您的感悟，助力泥人文化传承</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card p-4 shadow-sm">
+                    <form id="messageForm">
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">姓名 <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="请输入您的称呼">
+                            <div class="error-msg" id="nameError"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageInput" class="form-label">留言内容 <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="messageInput" rows="3" placeholder="留下您对泥人张文化的热爱或建议..."></textarea>
+                            <div class="error-msg" id="msgError"></div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary-custom">提交留言 <i class="fas fa-paper-plane"></i></button>
+                            <div id="formFeedback" class="mt-3 small"></div>
+                        </div>
+                    </form>
+                    <hr class="my-4">
+                    <div class="text-muted small text-center">✨ 每一份留言都是对传统手艺的守护，我们会精选展示。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- 页脚 -->
+<footer class="text-center py-4 mt-2">
+    <div class="container">
+        <p class="mb-1">© 2025 津门泥人张非遗数字展示 · 传承文化根脉</p>
+        <p class="mb-0 small">历史资料依据公开非遗文献整理，图片为示意素材，仅作课程展示使用。</p>
+        <p class="mt-2"><i class="fab fa-github"></i> 项目GitHub仓库 | 津门非遗 · AI协同开发</p>
+    </div>
+</footer>
+
+<!-- ======================= 图片模态框 ======================= -->
+<div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-light">
+                <h5 class="modal-title">泥人作品欣赏</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" alt="作品大图" class="modal-img img-fluid">
+                <p class="mt-3 fst-italic" id="modalCaption"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- 自定义 JavaScript (分离) -->
+<script src="js/main.js"></script>
+</body>
+</html>
